@@ -9,8 +9,5 @@ deploy:
   provider: heroku
   api_key: ec57621f-8194-4902-9e55-38c1e8ead8fa
   app: app-andx-towers
-  strategy: api
-  on:
-    branch: main
 before_install:
   - chmod +x mvnw
